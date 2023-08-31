@@ -1,5 +1,5 @@
 export const getChatResponse = async (prompt: string): Promise<string> => {
-  const response = await fetch("https://45tswthhbi.execute-api.us-east-1.amazonaws.com/dev", {
+  const response = await fetch("https://926ljsicr2.execute-api.us-east-1.amazonaws.com/dev", {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
